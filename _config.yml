@@ -5,14 +5,50 @@
 # Site
 title: 鋪碼路
 subtitle: Paving Road of The Code
-description: 致力於鋪造通往未來的程式碼之路。
-author: LI ZHI
-language: zh-TW
+description: 在耕耘程式碼的路上，寫下所有的點滴，並鋪造通往未來的道路。
+# author: LI ZHI
+language: zh-tw
 timezone:
+
+# 此主題所需設定內容
+# 小標題的小標題
+subtitle_desc: 鋪造自己的程式之路
+# SEO關鍵字
+keywords: Android, Java, 程式設計, 網頁程式設計, 前端網頁開發
+# 頁籤上圖標，可用本地或線上圖片(本地放置於themes/hexo-theme-skapp/source/img之下，路徑設為/img之下)
+favicon_ico: http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico
+# 左上角LOGO，可用本地或線上圖片(本地放置於themes/hexo-theme-skapp/source/img之下，路徑設為/img之下)
+logo: /img/blogLogo.png
+# 部落格下方頭像/QRcode(二選一)
+qrcode: https://s.aolcdn.com/hss/storage/midas/20b9fc32cb9dfa2e0c3bff70676e72f4/202624121/wallpaper-for-facebook-profile-photo.jpg
+# avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
+# 文章預設封面圖
+default_cover: https://c1.staticflickr.com/1/723/32338368824_b688ae6b0e.jpg
+# 首頁頁首圖
+header_cover: http://ext.pimg.tw/lingyi9999/1460539812-2771448713_n.jpg
+# 404錯誤背景圖
+error_page_bg: http://oo12ugek5.bkt.clouddn.com/blog/images/dogs.jpg
+# 畫面載入圖示
+loader_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
+# 作者資訊
+author:
+  name: LI-ZHI
+  link: https://github.com/Dindin00
+# 部落格下方關於
+about:
+  info: 本站透過Hexo所建立，用來記錄學習、工作及生活上的資訊技術內容。
+  address: New Taipei City, Taiwan
+  email: Dindin5200@gmail.com
+#部落格上方選單列
+menu:
+  home: /
+  archive: /archives
+  works: /works
+  about: /about
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://dindin00.github.io/Paving_Road_of_The_Code
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,7 +108,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-skapp
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -80,3 +116,65 @@ deploy:
   type: git
   repo: https://github.com/Dindin00/Paving_Road_of_The_Code.git
   branch: gh-pages
+
+# Sass
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+
+# Autoprefixer
+autoprefixer:
+  exclude:
+    - '*.min.css'
+  browsers:
+    - 'last 2 versions'
+
+# Lunr
+lunr:
+  field: all
+  fulltext: false
+  path: assets/lunr/
+
+# filter_cleanup
+hfc_useref:
+  enable: true
+  concat: true
+
+hfc_html:
+  enable: true
+  exclude:
+
+hfc_css:
+  enable: true
+  exclude: 
+    - '*.min.css'
+
+hfc_js:
+  enable: true
+  mangle: true
+  exclude: 
+    - '*.min.js'
+
+hfc_img:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+
+hfc_favicons:
+  enable: false
+  src: img/blog-logo.png
+  target: img/
+  icons:
+    android: true
+    appleIcon: true
+    appleStartup: false
+    coast: false
+    favicons: true
+    firefox: false
+    opengraph: false
+    windows: true
+    yandex: false

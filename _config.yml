@@ -18,7 +18,7 @@ keywords: Android, Java, 程式設計, 網頁程式設計, 前端網頁開發
 # 頁籤上圖標，可用本地或線上圖片(本地放置於themes/hexo-theme-skapp/source/img之下，路徑設為/img之下)
 favicon_ico: http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico
 # 左上角LOGO，可用本地或線上圖片(本地放置於themes/hexo-theme-skapp/source/img之下，路徑設為/img之下)
-logo: /img/blogLogo.png
+logo: https://github.com/Dindin00/Paving_Road_of_The_Code/blob/master/source/img/blogLogo.png
 # 部落格下方頭像/QRcode(二選一)
 qrcode: https://s.aolcdn.com/hss/storage/midas/20b9fc32cb9dfa2e0c3bff70676e72f4/202624121/wallpaper-for-facebook-profile-photo.jpg
 # avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
@@ -29,7 +29,7 @@ header_cover: http://ext.pimg.tw/lingyi9999/1460539812-2771448713_n.jpg
 # 404錯誤背景圖
 error_page_bg: http://oo12ugek5.bkt.clouddn.com/blog/images/dogs.jpg
 # 畫面載入圖示
-loader_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
+loader_img: http://web2.jaes.ntpc.edu.tw/emag2014/images/loading.gif
 # 作者資訊
 author:
   name: LI-ZHI

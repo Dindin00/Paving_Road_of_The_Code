@@ -1,6 +1,6 @@
 ---
 title: 如何利用Hexo建立個人部落格
-cover: https://dn-sdkcnssl.qbox.me/article/fW2TdnnVf4dkMlhckU_k.png
+cover: https://raw.githubusercontent.com/Dindin00/Paving_Road_of_The_Code/master/source/img/hexo_index.png
 author: 
   nick: LI-ZHI
   link: https://www.github.com/Dindin00

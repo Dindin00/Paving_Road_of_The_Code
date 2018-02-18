@@ -18,7 +18,7 @@ keywords: Android, Java, 程式設計, 網頁程式設計, 前端網頁開發
 # 頁籤上圖標，可用本地或線上圖片(本地放置於themes/hexo-theme-skapp/source/img之下，路徑設為/img之下)
 favicon_ico: http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico
 # 左上角LOGO，可用本地或線上圖片(本地放置於themes/hexo-theme-skapp/source/img之下，路徑設為/img之下)
-logo: https://github.com/Dindin00/Paving_Road_of_The_Code/blob/master/source/img/blogLogo.png
+logo: https://raw.githubusercontent.com/Dindin00/Paving_Road_of_The_Code/master/source/img/blogLogo.png
 # 部落格下方頭像/QRcode(二選一)
 qrcode: https://s.aolcdn.com/hss/storage/midas/20b9fc32cb9dfa2e0c3bff70676e72f4/202624121/wallpaper-for-facebook-profile-photo.jpg
 # avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
